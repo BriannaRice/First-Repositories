@@ -34,13 +34,23 @@ print_number(13)
 print_number(23)
 
 
-# 4.14.4 name age 
+# 4.14.4 name age
 # Brianna Rice
-# 24)
-.18.19
+# 24.18.19
 
 def name_and_age(name, age):
     print('\n','Hi, my name is', name, 'and I am', str(age), 'years old')
 
 name_and_age('bvcdgf', 41)
 name_and_age('vmfkvmfkm', 3)
+
+# 4.14.5: Default Parameter and values
+# Brie Rice
+# 2.19.19
+
+def print_two_numbers(x,y = 20):
+    print('First number:', x)
+    print('Second number: ' + str(y))
+
+print_two_numbers(34,54)
+print_two_numbers(78)
