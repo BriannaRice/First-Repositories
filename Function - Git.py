@@ -54,3 +54,12 @@ def print_two_numbers(x,y = 20):
 
 print_two_numbers(34,54)
 print_two_numbers(78)
+
+# 4.14.6: Print some
+# Brie Rice
+# 2.19.19
+
+def print_some(x,y):
+    print(x + y)
+
+print_some(46,62)
