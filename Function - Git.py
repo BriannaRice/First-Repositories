@@ -63,3 +63,14 @@ def print_some(x,y):
     print(x + y)
 
 print_some(46,62)
+
+# 4.16.3: Enter a number using Try & Except
+# Brianna Rice
+# 2.20.19
+try:
+    my_num = int(input('Enter an integer: '))
+    print('Your number:', my_num)
+
+except ValueError:
+    print('\n''that was not and integer, (:')
+
