@@ -90,3 +90,10 @@ except ValueError:
 print('\n''Name:', name)
 print('Age:', age)
 
+# program tracing
+# brianna Rice
+x = 20
+
+while x > 5:
+    print(x)
+    x = x - 2
